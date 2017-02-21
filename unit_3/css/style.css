@@ -2,6 +2,8 @@ body{
 	/*background: "spring_home.jpg";*/
 	background: "spring_home.jpg";
 	background-size: cover;
+	backface-visibility:
+	opacity: 10;
 }
 h1{
 	/*color: black;
