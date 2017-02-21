@@ -1,0 +1,21 @@
+body{
+	/*background: "spring_home.jpg";*/
+	background: "spring_home.jpg";
+	background-size: cover;
+	backface-visibility:
+	opacity: 10;
+}
+h1{
+	/*color: black;
+	color: black;
+	text-align: left;
+	font-size: 25pt;
+	font-family: "Poppi-Residenz";
+}
+
+slogan{
+	text-align: right;
+	font-size: 14pt;
+	font-family: "Times New Roman";
+	color: black;
+}
