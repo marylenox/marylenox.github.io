@@ -1,5 +1,4 @@
-body {
-	body{
+body{
 	/*background: "spring_home.jpg";*/
 	background: "spring_home.jpg";
 	background-size: cover;
@@ -7,7 +6,7 @@ body {
 h1{
 	/*color: black;
 	color: black;
-	text-align: center;
+	text-align: left;
 	font-size: 25pt;
 	font-family: "Poppi-Residenz";
 }
