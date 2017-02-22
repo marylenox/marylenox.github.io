@@ -1,35 +1,35 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #222222;
+	font-family: "Poppi-Residenz", sans-serif;
+	font-size:16px;
+}
 
-
-header{
+#hero{
 	background-image: url("../images/spring_home.jpg");
 	background-size: cover;
-	font-family: "Poppi-Residenz", Regular;
-	font-size: 55pt;
 	font-weight: bold;
-	color: #222222;
+	height: 90vh;
+	padding:10em 0 0 10em;
 }
 
 h1{
-	font-family: "Poppi-Residenz";
 	font-size: 45px;
-	color: black;
 }
 
 h2{
-	font-family: "Minion Pro";
+	font-family: "Minion Pro", serif;
 	font-size: 30px;
 	color: #ff00ff;
 }
 
 h3{
-	font-family: "Minion Pro";
+	font-family: "Minion Pro", serif;
 	font-size: 25px;
-	color: black;
 }
 
 nav a{
-
-	color: #222222;
+	color: inherit;
 	font-style: italic;
 	font-weight: bold;
 	margin-left: 10px;
@@ -37,14 +37,13 @@ nav a{
 
 ul{
 	font-size: 24px;
+	padding-left:1.2em;
 }
-
 img{
 	width: 25%;
 }
 
 #slogan{
 	text-align: left;
-	font-family: "Times New Roman";
-	font-size: 18px;
+	font-family: "Times New Roman", serif;
 }
