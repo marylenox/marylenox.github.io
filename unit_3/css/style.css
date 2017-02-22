@@ -1,21 +1,35 @@
+
 body{
-	/*background: "spring_home.jpg";*/
-	background: "spring_home.jpg";
-	background-size: cover;
-	backface-visibility:
-	opacity: 10;
-}
-h1{
-	/*color: black;
-	color: black;
-	text-align: left;
-	font-size: 25pt;
-	font-family: "Poppi-Residenz";
+	background-image:"images/spring_home.jpg";
+	font-family: "Minion Pro", Regular;
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.3;
 }
 
-slogan{
-	text-align: right;
-	font-size: 14pt;
-	font-family: "Times New Roman";
+h1{
+	font-family: "Poppi-Residenz";
+	font-size: 45px;
 	color: black;
 }
+
+
+nav a{
+
+	color: #222222;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+p
+
+ul{
+	font-size: 24px;
+	color: #ff00ff;
+}
+li
+
+img{
+	width: 100%;
+
+#slogan
