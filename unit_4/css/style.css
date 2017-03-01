@@ -24,7 +24,7 @@ h2{
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.5em;
 	font-weight: 200;
-	color: #ff00ff;
+	color: #ff1a8c;
 	text-align: center;
 }
 
@@ -45,7 +45,7 @@ nav a{
 	padding: 1em;
 }
 nav a:last-of-type{
-	background:orange;
+	background:#ff1a8c;
 	color:#fff;
 }
 ul{
