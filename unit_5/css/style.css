@@ -8,10 +8,11 @@ body {
 	line-height: 1.5;
 }
 #wrapper{
-	background-color: #606060;
+	background-color: #E8C66A;
 }
 
 #hero{
+	background-color: #FFED74;
 	background-image: url("../images/spring_home.jpg");
 	background-size: cover;
 	font-weight: bold;
@@ -74,4 +75,16 @@ img{
 span{
 	color: #ff1a8c;
 	text-shadow: 2px 2px #222222;
+}
+
+section{
+	background-color: #FFE2B8;
+}
+
+aside{
+	background-color: #FFC675;
+}
+
+footer{
+	background-color: #FF957E;
 }
