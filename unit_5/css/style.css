@@ -64,7 +64,20 @@ ul{
 }
 
 img{
-	width: 25%;
+	width: 20%;
+	padding: 1em;
+}
+
+#Owner{
+	width: 300px;
+	padding: 30px;
+}
+
+#book{
+	background-image: url("../images/bdparty.jpg");
+	background-size: cover;
+	height: 90vh;
+	padding:5em 0 0 5em;
 }
 
 #slogan{
