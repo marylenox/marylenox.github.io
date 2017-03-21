@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #222222;
+	font-family: 'Playfair Display', serif;
+	font-size:20px;
+	line-height: 1.5;
+}
+#wrapper{
+	background-color: #A8A8A8
+}
+
+#hero{
+	background-color: #FFED74;
+	background-image: url("../images/spring_home.jpg");
+	background-size: cover;
+	font-weight: bold;
+	height: 80vh;
+	padding:10em 0 0 10em;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #ff1a8c;
+	text-align: center;
+}
+
+h3{
+	font-family: "Minion Pro", serif;
+	font-size: 1.25em;
+}
+
+li{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+}
+
+nav a{
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em;
+
+}
+nav a:last-of-type{
+	background:#ff1a8c;
+	color:#fff;
+}
+
+ul{
+	font-size: 1.25em;
+	padding-left:1em;
+}
+
+#logo{
+	width: 20%;
+}
+
+img{
+	width: 20%;
+	padding: 2em;
+}
+
+#services{
+  padding: 2%;
+  display: inline-block;
+}
+
+#Owner{
+	width: 300px;
+	padding: 30px;
+}
+
+#book{
+	background-image: url("../images/masquerade.jpg");
+	background-size: cover;
+	height: 110vh;
+	padding:5em 0 0 5em;
+	color: #fff;
+}
+
+#slogan{
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#navigation2{
+	background-color: #A8A8A8;
+}
+
+div{
+  font-size: 1.2em;
+  width: 33%;
+  padding: 2%;
+  display: inline-block;
+}
+
+#specialty{
+	float: left;
+}
+
+#specialty2{
+	float: right;
+}
+
+#help{
+	float: right;
+}
+
+#two-column{
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #ffe6f2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+
+}
+
+#right{
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
+#our-story{
+	clear: both;
+}
+
+span{
+	color: #ff1a8c;
+	text-shadow: 2px 2px #222222;
+}
+
+section{
+	background-color: #F0F0F0;
+}
+
+footer{
+	background-color: #C8C8C8;
+}
+
+.cleafix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}

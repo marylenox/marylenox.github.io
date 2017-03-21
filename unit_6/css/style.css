@@ -65,7 +65,7 @@ ul{
 
 img{
 	width: 20%;
-	padding: 1em;
+	padding: 2em;
 }
 
 #services{
@@ -79,10 +79,11 @@ img{
 }
 
 #book{
-	background-image: url("../images/bdparty.jpg");
+	background-image: url("../images/masquerade.jpg");
 	background-size: cover;
-	height: 90vh;
+	height: 110vh;
 	padding:5em 0 0 5em;
+	color: #fff;
 }
 
 #slogan{
@@ -114,13 +115,12 @@ div{
 }
 
 #two-column{
-	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #left{
-	background-color: pink;
+	background-color: #ffe6f2;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
@@ -129,7 +129,6 @@ div{
 }
 
 #right{
-	background-color: violet;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
@@ -147,11 +146,6 @@ span{
 
 section{
 	background-color: #F0F0F0;
-}
-
-
-aside{
-	background-color: #FFC675;
 }
 
 footer{
