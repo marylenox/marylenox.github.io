@@ -7,7 +7,7 @@ body {
 	font-size:20px;
 	line-height: 1.5;
 }
-#wrapper{
+#wrapper, #nav2{
 	background-color: #A8A8A8
 }
 
@@ -30,11 +30,14 @@ h2{
 	font-weight: 200;
 	color: #ff1a8c;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 h3{
 	font-family: "Minion Pro", serif;
 	font-size: 1.25em;
+}
+p{
 }
 
 li{
@@ -47,9 +50,9 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	padding: 1em;
-
 }
-nav a:last-of-type{
+
+nav#wrapper a:last-of-type{
 	background:#ff1a8c;
 	color:#fff;
 }
@@ -69,8 +72,8 @@ img{
 }
 
 #services{
-  padding: 2%;
-  display: inline-block;
+  	padding: 2%;
+  	display: inline-block;
 }
 
 #Owner{
@@ -91,29 +94,39 @@ img{
 	font-family: "Times New Roman", Times, serif;
 }
 
-#navigation2{
-	background-color: #A8A8A8;
+#nav2:last-of-type{
+	background:none;
 }
 
-div{
+/*div{
   font-size: 1.2em;
   width: 33%;
   padding: 2%;
-  display: inline-block;
+}
+
+#main{
+	float: left;
+	display:inline-block;
+}*/
+
+#specialty, #main{
+	float: left;
+	display:inline-block;
+	width: 25%;
+	
+}
+#specialty ul, #main p{
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+}
+
+#main p {
+	padding-right: 20px;
 }
 
 #specialty{
-	float: left;
+	background-color:#C8C8C8;
 }
-
-#specialty2{
-	float: right;
-}
-
-#help{
-	float: right;
-}
-
 #two-column{
 	border: 1px black solid;
 	padding: 20px;
@@ -135,17 +148,23 @@ div{
 	width: 30%;
 }
 
+#Owner{
+	float: left;
+	height: 25%;
+	padding: 1em;
+}
 #our-story{
-	clear: both;
+	float: left;
+	display:inline-block;
+	width: 85%;
 }
 
+#gallery{
+	clear: both;
+}
 span{
 	color: #ff1a8c;
 	text-shadow: 2px 2px #222222;
-}
-
-section{
-	background-color: #F0F0F0;
 }
 
 footer{
