@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:200');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 * {margin:0;padding:0;box-sizing:border-box;}
+.clearfix{
+	clear:both;
+}
 body {
 	color: #222222;
 	font-family: 'Playfair Display', serif;
@@ -132,6 +135,7 @@ img{
 
 #specialty{
 	background-color:#C8C8C8;
+	height: 475px;
 }
 
 #two-column{
@@ -187,4 +191,14 @@ footer{
 	content: "";
 	clear: both;
 	height: 0;
+}
+
+@media screen and (max-width: 1145px){
+	#specialty{
+	width: 33.33%;
+}
+	#main{
+		width: 100%;
+	}
+
 }
