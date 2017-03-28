@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #222222;
+	font-family: 'Playfair Display', serif;
+	font-size:20px;
+	line-height: 1.5;
+}
+#wrapper, #nav2{
+	background-color: #A8A8A8
+}
+
+#hero{
+	background-color: #FFED74;
+	background-image: url("../images/spring_home.jpg");
+	background-size: cover;
+	font-weight: bold;
+	height: 80vh;
+	padding:10em 0 0 10em;
+	width: 100%;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #ff1a8c;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+h3{
+	font-family: "Minion Pro", serif;
+	font-size: 1.25em;
+}
+
+li{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+}
+
+nav a{
+	color: #FFFFFF;
+	width: cover;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 2em 1.5em;
+	text-transform: uppercase;
+}
+
+nav a:link{
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 1.5em;
+}
+
+nav a:visited{
+	color: #ffffff;
+}
+
+nav a:hover{
+	color:#ff1a8c;
+}
+
+nav a: active{
+	color:#ff1a8c;
+}
+
+nav#wrapper a:last-of-type{
+	background:#ff1a8c;
+	color:#fff;
+}
+
+ul{
+	font-size: 1.25em;
+	padding-left:1em;
+}
+
+#logo{
+	width: 15%;
+}
+
+img{
+	width: 20%;
+	padding: 1em;
+}
+
+#services{
+  	padding: 2%;
+  	display: inline-block;
+}
+
+#book{
+	background-image: url("../images/masquerade.jpg");
+	background-size: cover;
+	height: 110vh;
+	padding:5em 0 0 5em;
+	color: #fff;
+}
+
+#slogan{
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#nav2:last-of-type{
+	background:none;
+}
+
+#specialty, #main{
+	float: left;
+	display:inline-block;
+	width: 25%;
+}
+
+#specialty ul, #main p{
+	padding: 2em 0;
+	margin: 0 0 0 30px;
+}
+
+#main p {
+	padding-right: 1em;
+}
+
+#specialty{
+	background-color:#C8C8C8;
+}
+
+#two-column{
+	border: 1px black solid;
+	padding: 2em;
+}
+
+#left{
+	background-color: #ffe6f2;
+	border: 1px black solid;
+	padding: 2em;
+	float: left;
+	width: 62%;
+}
+
+#right{
+	border: 1px black solid;
+	padding: 1.5em;
+	float: right;
+	width: 30%;
+}
+
+#Owner{
+	float: left;
+	height: 30%;
+	padding: 1em;
+}
+
+#our-story{
+	float: left;
+	display:inline-block;
+	width: 85%;
+}
+
+#gallery{
+	clear: both;
+}
+
+span{
+	color: #ff1a8c;
+	text-shadow: 2px 2px #222222;
+}
+
+footer{
+	background-color: #C8C8C8;
+	text-align: center;
+}
+
+.cleafix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
