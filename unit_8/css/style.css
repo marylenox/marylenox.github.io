@@ -200,5 +200,7 @@ footer{
 	#main{
 		width: 100%;
 	}
+	nav a:link{
+		padding: 1em;
 
 }
