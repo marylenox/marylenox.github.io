@@ -201,6 +201,10 @@ footer{
 		width: 100%;
 	}
 	nav a:link{
-		padding: 1em;
+		display:block;
+		padding: .5em;
+	h1{
+		margin: 20px 0 0;
+	}
 
 }
