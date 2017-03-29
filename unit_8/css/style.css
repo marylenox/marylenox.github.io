@@ -209,7 +209,28 @@ footer{
 
 @media screen and (max-width: 850px){
 	#hero{
-		height: 60vh
-		padding: 10%;
+		height: 50vh;
+	}
+	#specialty, #main{
+	float: none;
+	display:block;
+	width: 100%;
+	}
+	#specialty{
+		height: 325px;
+	}
+	h3{
+	font-size: 1em;
+	padding: .25em;
+	}
+}
+@media screen and (max-width: 750px){
+	#left{
+	float: none;
+	width: 100%;
+	}
+	#right{
+	float: none;
+	width: 100%;
 	}
 }
