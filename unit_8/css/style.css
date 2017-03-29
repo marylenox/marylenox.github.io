@@ -205,3 +205,11 @@ footer{
 		padding: .5em;
 	}
 }
+
+@media screen and (max-width: 750px{
+	#hero{
+		background-image: url("../images/spring_home.jpg");
+		background-size: cover;
+		height: 60vh;
+		padding: 10%;
+}
