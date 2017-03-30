@@ -4,6 +4,38 @@
 .clearfix{
 	clear:both;
 }
+<style>
+input[type=text], select{
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 25%;
+	background-color: #ff1a8c;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #ff1a8c;
+}
+div form{
+	width: 50%;
+	border-radius: 5px;
+	color: #000000;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+</style>
+}
 body {
 	color: #222222;
 	font-family: 'Playfair Display', serif;

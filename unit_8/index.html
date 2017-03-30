@@ -6,14 +6,13 @@
 	<!--[if lt IE 9]>
        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
     <![endif]-->
-
 </head>
 <body>
 
 	<header>
 		<img id="logo" src="images/partydivaslogo.svg" alt="party divas logo">
 		<nav id="wrapper">
-			<a href="#">HOME</a>
+			<a class="active" href="#">HOME</a>
 			<a href="#">SERVICES</a>
 			<a href="#">OUR STORY</a>
 			<a href="#">GALLERY</a>
@@ -157,8 +156,23 @@
 		<h2>Book Now</h2>
 		<h3>HEY PARTY PEOPLE!</h3>
 		<p>Are you planning an event? Fill us in with the details and we will let you in on how we work.</p>
-		<form>
+	<div id="form">
+		<form action="/action_page.php">
+		First name:<br>
+		<input type="text" name="firstname">
+		<br>
+		Last name:<br>
+		<input type="text" name="lastname">
+		<br>
+		Phone number:<br>
+		<input type="text" name="phonenumber">
+		<br>
+		E-mail:<br>
+		<input type="email" name="email">
+		<br><br>
+		<input type="submit">
 		</form>
+	</div> 
 	</section>
 	<footer>
 		<p>&copy; 2017 Party Divas Inc. Imagine hosting your next party and your only job is to ENJOY!</p>
