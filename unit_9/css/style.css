@@ -232,7 +232,6 @@ img{
 	min-width: 320px;
 	margin: 0 auto;
 	min-height: 100%;
-	position: relative;
 }
 
 .gallery-grid ul.grid-item{
