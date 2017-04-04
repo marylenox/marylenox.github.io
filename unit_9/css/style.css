@@ -179,17 +179,17 @@ img{
 	background-color: #ffe6f2;
 	border: 1px black solid;
 	margin-left: 2%;
-	padding: 1em;
+	padding: 1.5%;
 	float: left;
-	width: 45%;
+	width: 46.5%;
 }
 
 #right{
 	border: 1px black solid;
 	margin-right: 2%;
-	padding: 1.5em;
+	padding: 1.5%;
 	float: right;
-	width: 45%;
+	width: 46.5%;
 }
 
 #Owner{
