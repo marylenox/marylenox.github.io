@@ -222,14 +222,12 @@ img{
 	display: block;
 	width: 100%;
 	text-align: center;
-	max-width: 860px;
 	margin: auto;
 	padding-top: 25px;
 }
 
 #gallery-grid{
 	width: 100%;
-	min-width: 320px;
 	margin: 0 auto;
 	position: relative;
 }
