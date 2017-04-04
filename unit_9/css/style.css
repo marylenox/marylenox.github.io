@@ -170,7 +170,7 @@ img{
 	height: 550px;
 }
 
-#two-column{
+#two-column
 	padding: 2em;
 }
 
@@ -231,7 +231,7 @@ img{
 	position: relative;
 }
 
-.gallery-item{
+#gallery-item{
 	width: 25%;
 	float: left;
 	padding: 10px;
