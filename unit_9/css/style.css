@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+* {margin:0;padding:0;box-sizing:border-box;}
+.clearfix{
+	clear:both;
+}
+<style>
+input[type=text], select{
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 25%;
+	background-color: #ff1a8c;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #ff1a8c;
+}
+div form{
+	width: 50%;
+	border-radius: 5px;
+	color: #000000;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+</style>
+}
+body {
+	color: #222222;
+	font-family: 'Playfair Display', serif;
+	font-size:16px;
+	line-height: 1.5;
+}
+#wrapper{
+	background-color: #A8A8A8
+}
+
+#hero{
+	background-color: #FFED74;
+	background-image: url("../images/spring_home.jpg");
+	background-size: cover;
+	font-weight: bold;
+	height: 80vh;
+	padding:10em 0 0 10em;
+	width: 100%;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #ff1a8c;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+h3{
+	font-family: "Minion Pro", serif;
+	font-size: 1.25em;
+	padding: .5em;
+}
+
+li{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+}
+
+nav a{
+	color: #FFFFFF;
+	width: cover;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 2em 1.5em;
+	text-transform: uppercase;
+}
+
+nav a:link{
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em 1.5em;
+}
+
+nav a:visited{
+	color: #ffffff;
+}
+
+nav a:hover{
+	color:#ff1a8c;
+}
+
+nav a: active{
+	color:#ff1a8c;
+}
+
+nav a:last-of-type{
+	background:#ff1a8c;
+	color:#fff;
+}
+
+ul{
+	font-size: 1.25em;
+	padding-left:2em;
+}
+
+#logo{
+	width: 15%;
+}
+
+img{
+	width: 20%;
+	padding: 1em;
+}
+
+#services{
+  	padding: 2%;
+  	display: inline-block;
+}
+
+#book{
+	background-image: url("../images/masquerade.jpg");
+	background-size: cover;
+	height: 110vh;
+	padding:5em 0 0 5em;
+	color: #fff;
+}
+
+#slogan{
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.specialty, #main{
+	float: left;
+	display:inline-block;
+	width: 25%;
+}
+
+.specialty, ul, #main p{
+	padding: 2em 2em;
+}
+
+#main p{
+	font-size: 1.5em;
+	margin: 2%;
+	padding: 1.25em;
+}
+
+.specialty{
+	font-size: 1em;
+	line-height: 2em;
+	background-color:#C8C8C8;
+	height: 550px;
+}
+
+#two-column{
+	border: 1px black solid;
+	padding: 2em;
+}
+
+#left{
+	background-color: #ffe6f2;
+	border: 1px black solid;
+	margin-left: 2%;
+	padding: 1em;
+	float: left;
+	width: 45%;
+}
+
+#right{
+	border: 1px black solid;
+	margin-right: 2%;
+	padding: 1.5em;
+	float: right;
+	width: 45%;
+}
+
+#Owner{
+	padding: 5px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#me{
+	display: block;
+	max-width: 860;
+	margin: auto;
+
+}
+
+#our-story{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: block;
+	margin-top: 60px;
+	margin-bottom: 95px;
+	line-height: 35px;
+	font-size: 17px;
+}
+
+#gallery{
+	clear: both;
+	display: block;
+	width: 100%;
+	text-align: center;
+	max-width: 860px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+#gallery-grid{
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.gallery-grid ul.grid-item{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.gallery-item{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+li.item img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	max-height: 170px;
+}
+span{
+	color: #ff1a8c;
+	text-shadow: 2px 2px #222222;
+}
+
+footer{
+	padding: 1em;
+	background-color: #C8C8C8;
+	text-align: center;
+}
+
+.cleafix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+@media screen and (max-width: 1145px){
+	#specialty{
+	width: 33.33%;
+}
+	#main{
+		width: 100%;
+	}
+	nav a:link{
+		display:block;
+		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 850px){
+	#hero{
+		height: 50vh;
+	}
+	.specialty, #main{
+	float: none;
+	display:block;
+	width: 100%;
+	}
+	.specialty{
+		height: 600px;
+	}
+	h3{
+	font-size: 1em;
+	padding: .25em;
+	}
+}
+@media screen and (max-width: 750px){
+	#left{
+	float: none;
+	width: 100%;
+	}
+	#right{
+	float: none;
+	width: 100%;
+	}
+}
