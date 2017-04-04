@@ -170,7 +170,8 @@ img{
 	height: 550px;
 }
 
-#two-column
+#two-column{
+	border: 1px black solid;
 	padding: 2em;
 }
 
@@ -221,6 +222,7 @@ img{
 	display: block;
 	width: 100%;
 	text-align: center;
+	margin: auto;
 	padding-top: 25px;
 	padding-bottom: 50px;
 }
