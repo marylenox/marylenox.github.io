@@ -239,7 +239,7 @@ img{
 	box-sizing: border-box;
 }
 
-li.item img{
+ul.gallery-item img{
 	max-width: 100%;
 	display: block;
 }
