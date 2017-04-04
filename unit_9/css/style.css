@@ -171,7 +171,6 @@ img{
 }
 
 #two-column{
-	border: 1px black solid;
 	padding: 2em;
 }
 
@@ -236,6 +235,7 @@ img{
 	width: 25%;
 	float: left;
 	padding: 10px;
+	box-sizing: border-box;
 }
 
 span{
