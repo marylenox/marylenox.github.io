@@ -239,11 +239,6 @@ img{
 	box-sizing: border-box;
 }
 
-ul.gallery-item img{
-	max-width: 100%;
-	display: block;
-}
-
 span{
 	color: #ff1a8c;
 	text-shadow: 2px 2px #222222;
