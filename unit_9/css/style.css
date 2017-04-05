@@ -261,7 +261,7 @@ footer{
 }
 
 @media screen and (max-width: 1140px){
-	#specialty{
+	.specialty{
 	width: 33.33%;
 }
 	#main{
@@ -276,10 +276,7 @@ footer{
 	}
 }
 
-@media screen and (max-width: 850px){
-	#hero{
-		height: 50vh;
-	}
+@media screen and (max-width: 970px){
 	.specialty, #main{
 	float: none;
 	display:block;
@@ -287,7 +284,8 @@ footer{
 	}
 	.specialty{
 		height: 600px;
-	}
+}
+@media screen and (max-width: 850px){
 	h3{
 	font-size: 1em;
 	padding: .25em;
