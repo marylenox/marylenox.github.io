@@ -260,7 +260,7 @@ footer{
 	height: 0;
 }
 
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1140px){
 	#specialty{
 	width: 33.33%;
 }
@@ -270,6 +270,9 @@ footer{
 	nav a:link{
 		display:block;
 		padding: 1em;
+	}
+	.specialty{
+		height: 750px;
 	}
 }
 
