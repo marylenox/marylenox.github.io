@@ -175,17 +175,21 @@ img{
 }
 
 #left{
-	background-color: #ffe6f2;
+	background-color: #FF69B4;
 	border: 1px black solid;
 	margin-left: 2%;
 	padding: 1.5%;
 	float: left;
 	width: 46.5%;
 }
+#left h2{
+	color: white;
+}
 
 #right{
 	border: 1px black solid;
 	margin-right: 2%;
+	background-color: #D3D3D3;
 	padding: 1.5%;
 	float: right;
 	width: 46.5%;
